@@ -1,23 +1,12 @@
 {
-  "dataStudio": {
-    "name": "GeoJSON Overlay Visualization",
-    "logoUrl": "https://www.gstatic.com/datastudio/icons/datasource_generic_icon_128.png",
-    "organization": "Alief Fauzan",
-    "description": "Displays a GeoJSON layer over Google Maps imagery in Looker Studio",
-    "supportUrl": "https://github.com/AliefFauzan/GeoJSON-MUSPAS",
-    "privacyPolicyUrl": "https://policies.google.com/privacy"
-  },
-  "components": [
-    {
-      "id": "geojson_map",
-      "name": "GeoJSON Overlay Map",
-      "iconUrl": "https://www.gstatic.com/datastudio/icons/datasource_generic_icon_128.png",
-      "description": "A Google Maps visualization with GeoJSON overlay",
-      "resource": {
-        "js": "script.js",
-        "html": "index.html",
-        "css": ""
-      }
+  "visualization": {
+    "id": "custom_geojson_map",
+    "label": "Custom GeoJSON Map",
+    "description": "Displays data from a GeoJSON file.",
+    "logoUrl": "https://raw.githubusercontent.com/AliefFauzan/GeoJSON-MUSPAS/main/lookerviz/icon.png",
+    "resource": {
+      "js": "https://raw.githubusercontent.com/AliefFauzan/GeoJSON-MUSPAS/main/lookerviz/script.js",
+      "css": "https://raw.githubusercontent.com/AliefFauzan/GeoJSON-MUSPAS/main/lookerviz/style.css"
     }
-  ]
+  }
 }
